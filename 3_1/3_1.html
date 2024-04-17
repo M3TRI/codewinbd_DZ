@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя HTML-страница</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        section, article, nav, aside {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #444;
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        h3 {
+            color: #ff6600;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Добро пожаловать на мою страницу!</h1>
+</header>
+<main>
+    <section>
+        <h2>Обо мне</h2>
+        <p>Привет! Я Сергей, и я изучаю PHP.</p>
+        <p>Я уже знаю основы HTML и CSS</p>
+        <p>А раньше я изучал C# Python и JS</p>
+    </section>
+    <article>
+        <h3>Это заголовок</h3>
+        <p>Тут у нас параграф.</p>
+        <ul>
+            <li>Этой первый li элемент</li>
+            <li>Этой второй li элемент</li>
+            <li>Этой третий li элемент</li>
+        </ul>
+    </article>
+    <nav>
+        <h2>Навигация</h2>
+        <ul>
+            <li><a href="#">Страница 1</a></li>
+            <li><a href="#">Страница 2</a></li>
+            <li><a href="#">Страница 3</a></li>
+            <li><a href="#">Страница 4</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <h2>Боковая панель</h2>
+        <p>Тут параграф с какой-то информацией</p>
+    </aside>
+</main>
+<footer>
+    <p>© 2024 Моя HTML-страница. Все права защищены.</p>
+</footer>
+
+
+</body></html>

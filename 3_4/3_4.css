@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.about-section {
+    text-align: center;
+    background-color: #333333;
+    padding: 50px;
+}
+
+.about-section h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about-section img {
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+p {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
