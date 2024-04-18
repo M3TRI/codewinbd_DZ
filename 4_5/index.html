@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.5</title>
+    <link rel="stylesheet" href="/4_4/styles.css">
+</head>
+<body>
+    <h2>Форма для заполнения</h2>
+    <form action="https://example.com/submit-form" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" placeholder="Введите пароль" required><br>
+
+        <label>Выберите опции:</label>
+        <input type="checkbox" id="option1" name="option1" value="option1">
+        <label for="option1">Опция 1</label>
+        <input type="checkbox" id="option2" name="option2" value="option2">
+        <label for="option2">Опция 2</label><br>
+
+        <label>Выберите пол:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br>
+
+        <label for="country">Выберите страну:</label>
+        <select id="country" name="country">
+            <option value="ru">Россия</option>
+            <option value="jp">Япония</option>
+            <option value="gr">Германия</option>
+            <option value="fr">Франция</option>
+        </select><br>
+
+        <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate"><br>
+
+        <label for="comment">Комментарий:</label>
+        <textarea id="comment" name="comment" rows="4" placeholder="Оставьте комментарий"></textarea><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
