@@ -1,0 +1,26 @@
+Ответы на контрольное тестирование 
+1)<br>
+2)<h1>
+3)<b>
+4)<i>
+5)body
+6)<h5>Заголовок</h5>
+7)Hypertext Markup Language
+8)<title>...</title>
+9)<body>
+10)<a href="url" target="_blank">
+11)submit
+12)<input type="file" >
+13)<select>
+14)type="password"
+15)src
+16)footer
+17)красный
+18)color: #000000
+19)border
+20)<link>
+21)внутрь тега body
+22)RGB
+23)<input type="checkbox">
+24)IP-адрес
+25)Сервером
