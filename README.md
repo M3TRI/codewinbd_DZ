@@ -6,3 +6,9 @@
 > m3tri
 ### Ещё как вариант в ТГ написать 
 > @M3TRI
+
+<p align="left">
+  <a href="https://github.com/M3TRI/M3TRI">
+    <img src="https://komarev.com/ghpvc/?username=m3tri" alt="page views" />
+  </a>
+</p>
